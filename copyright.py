@@ -40,7 +40,7 @@ DELETE_MESSAGE = [
 ]
 
 START_MESSAGE = """
-**Hello {}, I'm Anti - CopyRight Bot**
+**Hello {}, I'm Apex - Copyright**
 
  > **I can save your groups from Copyrights 😉**
 
@@ -49,7 +49,7 @@ START_MESSAGE = """
  **Process?:** Simply add me in your group and promote as admin with delete messages right!
 """
 
-BUTTON = [[InlineKeyboardButton("+ Add me in group +", url="http://t.me/AntiCopy_Robot?startgroup=s&admin=delete_messages")]]
+BUTTON = [[InlineKeyboardButton("+ Add me in group +", url="http://t.me/Apex_copyrightbot?startgroup=s&admin=delete_messages")]]
 
 bot = Client('bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
